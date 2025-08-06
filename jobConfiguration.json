@@ -1,10 +1,10 @@
 {
   "$schema": "https://raw.githubusercontent.com/Kyrales/jenkins-lib/devkyr/resources/schema.json",
-  "v8version": "8.3.25.1546",
+  "v8version": "8.3.26.1521",
   "edtVersion": "",
   "srcDir": "src/cf",
   "sourceFormat": "designer",
-  "defaultBranch": "storage_1c",
+  "defaultBranch": "storage1c",
   "secrets": {
     "storagePath": "Path_Otus_Storage_ID",
     "storage": "DeployGit_id",
@@ -43,7 +43,7 @@
     "initMethod": "fromStorage",
     "runMigration": true,
     "additionalInitializationSteps": [],
-    "templateDBPath": "e:/1C/build/Demo83_otus/1Cv8.1CD",
+    "templateDBPath": "c:/JenExm/DemoUP/1Cv8.1CD",
     "vrunnerSettings": "./tools/vrunner.json",
     "extensions": [
       {
